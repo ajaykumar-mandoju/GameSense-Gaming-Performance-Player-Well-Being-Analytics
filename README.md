@@ -5,25 +5,25 @@ An end-to-end **Data Analytics project** where I used **Python and Power BI** to
 ---
 # 📊 Power BI Dashboard
 
-The GameSense Power BI dashboard provides insights into player demographics, gaming performance, gaming behavior, and well-being.
+The GameSense Power BI dashboard provides insights into player demographics, gaming performance, gaming behaviour, and player well-being.
 
 ---
 
 ## 🎮 Game Sense Overview
 
-![Game Sense Overview](./Dashboard/Game%20Sense%20over%20view.svg)
+![Game Sense Overview](./Dashboard/Game%20Sense%20over%20view.png)
 
 ---
 
 ## 🏆 Game Sense Performance Analysis
 
-![Game Sense Performance Analysis](./Dashboard/Game%20Sense%20Performance%20Analysis.svg)
+![Game Sense Performance Analysis](./Dashboard/Game%20Sense%20Performance%20Analysis.png)
 
 ---
 
 ## ❤️ Game Sense Health & Gaming Behaviour Analysis
 
-![Game Sense Health & Gaming Behaviour Analysis](./Dashboard/Game%20Sense%20Health%20%26%20Gaming%20Behaviour%20Analysis.svg)
+![Game Sense Health & Gaming Behaviour Analysis](./Dashboard/Game%20Sense%20Health%20%26%20Gaming%20Behaviour%20Analysis.png)
 
 ---
 
