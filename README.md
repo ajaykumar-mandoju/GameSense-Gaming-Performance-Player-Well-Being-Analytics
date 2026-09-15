@@ -6,7 +6,7 @@ An end-to-end **Data Analytics project** where I used **Python and Power BI** to
 
 ## 🖼️ Final Dashboard
 
-![GameSense Dashboard](dashboard/GameSense_Dashboard.png)
+![GameSense Dashboard](Dashboard/Game%20Sense%20over%20view.png)
 
 ---
 
@@ -67,50 +67,29 @@ KPI Analysis
 Power BI Dashboard
      ↓
 Business Insights
-     ↓
-Project Documentation
 ```
 
 ---
 
 ## 📂 Project Structure
 
-> Placeholder layout — update the paths below to match your actual repo folders/files.
-
 ```
 GameSense-Gaming-Performance-Player-Well-Being-Analytics/
 │
-├── Power BI/
-│   └── GameSense_Dashboard.pbix
-│
-├── dashboard/
-│   ├── Performance_Analysis.png
-│   ├── Health_and_Gaming_Behaviour_Analysis.png
-│   ├── Player_Performance_Overview.png
-│   └── GameSense_Dashboard.png
+├── Dashboard/
+│   ├── Game Sense Health & Gaming Behaviour Analysis.png
+│   ├── Game Sense Performance Analysis.png
+│   └── Game Sense over view.png
 │
 ├── data/
-│   ├── cleaned/
-│   │   └── GameSense_cleaned.csv
-│   │
-│   └── raw/
-│       └── GameSense_raw.csv
+│   ├── gameSense_cleaned.xlsx
+│   └── game_sense_raw.csv
 │
-├── documentation/
-│   └── GameSense_Project_Documentation.pdf
+├── power bi/
+│   └── GameSense.pbix
 │
 ├── python/
 │   └── GameSense.ipynb
-│
-├── python_visualizations/
-│   ├── Boxplot of Reaction Time.png
-│   ├── Boxplot of Sleep Hours.png
-│   ├── Boxplot of Session Duration.png
-│   ├── Correlation Matrix.png
-│   ├── Win Rate by Player.png
-│   ├── APM vs Win Rate.png
-│   ├── Sleep vs Performance.png
-│   └── Screen Time vs Reaction Time.png
 │
 └── README.md
 ```
@@ -135,6 +114,9 @@ I used a gaming performance and player well-being dataset containing information
 | `Session Duration`  | Length of the gaming session                    |
 | `Game Genre`        | Genre of the game played                        |
 | `Date`               | Date of the session                            |
+
+**Raw data:** `data/game_sense_raw.csv`
+**Cleaned data:** `data/gameSense_cleaned.xlsx`
 
 ---
 
@@ -189,34 +171,17 @@ My analysis includes:
 
 ---
 
-## 📊 Python Visualizations
-
-I generated the following visualizations as part of the analysis:
-
-| Object                              | Purpose                                                   |
-| ------------------------------------ | ---------------------------------------------------------- |
-| `Boxplot of Reaction Time`            | Identify reaction time distribution and outliers            |
-| `Boxplot of Sleep Hours`              | Analyze sleep distribution and outliers                     |
-| `Boxplot of Session Duration`         | Analyze session length distribution and outliers            |
-| `Correlation Matrix`                  | Understand relationships between numerical variables         |
-| `Win Rate by Player`                  | Compare win rate across players                              |
-| `APM vs Win Rate`                     | Analyze the relationship between actions-per-minute and wins |
-| `Sleep vs Performance`                | Analyze how sleep relates to in-game performance             |
-| `Screen Time vs Reaction Time`        | Analyze how daily screen time relates to reaction speed       |
-
----
-
 ## 📌 Power BI Dashboard
 
-I used the cleaned gaming data to build an interactive, multi-page Power BI dashboard.
+I used the cleaned gaming data (`data/gameSense_cleaned.xlsx`) to build an interactive, multi-page Power BI dashboard.
 
 ### 📄 Dashboard Pages
 
-| Page                                  | Purpose                                                            |
-| --------------------------------------- | -------------------------------------------------------------------- |
-| `Player Performance Overview`           | High-level summary of win rate, APM, and reaction time by player    |
-| `Performance Analysis`                  | Deep dive into performance metrics and trends                       |
-| `Health & Gaming Behaviour Analysis`    | Relationship between sleep, screen time, session length, and performance |
+| Page                                                      | Purpose                                                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `Game Sense over view`                                       | High-level summary of win rate, APM, and reaction time by player               |
+| `Game Sense Performance Analysis`                            | Deep dive into performance metrics and trends                                  |
+| `Game Sense Health & Gaming Behaviour Analysis`              | Relationship between sleep, screen time, session length, and performance        |
 
 ### 📊 Dashboard KPIs
 
@@ -228,7 +193,7 @@ I used the cleaned gaming data to build an interactive, multi-page Power BI dash
 | `Average Sleep Hours`   | KPI Card | Average sleep hours across players                    |
 | `Total Sessions`        | KPI Card | Total number of gaming sessions analyzed               |
 
-The individual page previews are available inside `dashboard/`, and a full dashboard preview image is available at `dashboard/GameSense_Dashboard.png`.
+Page preview images are available inside `Dashboard/`.
 
 ### 🎚️ Slicers
 
@@ -238,7 +203,7 @@ The individual page previews are available inside `dashboard/`, and a full dashb
 | `Game Genre`       | Slicer | Filters the dashboard by game genre            |
 | `Date`             | Slicer | Filters the dashboard by session date          |
 
-The Power BI report is available at: `Power BI/GameSense_Dashboard.pbix`
+The Power BI report is available at: `power bi/GameSense.pbix`
 
 ---
 
@@ -259,16 +224,6 @@ The Power BI report is available at: `Power BI/GameSense_Dashboard.pbix`
 
 ---
 
-## 📁 Data Files
-
-**Raw Data** — `data/GameSense_raw.csv`
-Contains the original dataset used for the project.
-
-**Cleaned Data** — `data/GameSense_cleaned.csv`
-Contains the processed dataset used for further analysis and dashboard development.
-
----
-
 ## 🐍 Python Analysis
 
 The complete Python analysis is available in: `python/GameSense.ipynb`
@@ -285,14 +240,6 @@ The notebook covers:
 - Visualization
 - Outlier analysis
 - Final data validation
-
----
-
-## 📄 Documentation
-
-Detailed project documentation is available here: `documentation/GameSense_Project_Documentation.pdf`
-
-The documentation walks through the full analysis process, visualizations, dashboard, findings, and conclusions.
 
 ---
 
@@ -331,7 +278,7 @@ git clone https://github.com/ajaykumar-mandoju/GameSense-Gaming-Performance-Play
    Run the notebook cells to reproduce the data cleaning, exploratory data analysis, and visualizations.
 
 4. **Open the Power BI dashboard**
-   Navigate to `Power BI/GameSense_Dashboard.pbix` and open the file using Microsoft Power BI Desktop.
+   Navigate to `power bi/GameSense.pbix` and open the file using Microsoft Power BI Desktop.
 
 ---
 
